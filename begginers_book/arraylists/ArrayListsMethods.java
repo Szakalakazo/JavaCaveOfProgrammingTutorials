@@ -1,4 +1,4 @@
-package random_exercises.arraylists;
+package begginers_book.arraylists;
 
 import java.util.ArrayList;
 

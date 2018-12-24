@@ -1,4 +1,4 @@
-package random_exercises.arraylists;
+package begginers_book.arraylists;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -28,10 +28,8 @@ public class InitializeArrayList {
 
 
         //Collections.ncopies
-        ArrayList<Integer> intlist = new ArrayList<Integer>(Collections.nCopies(5,10));
-        System.out.println("ArrayList items: "+intlist);
-
-
+        ArrayList<Integer> intlist = new ArrayList<Integer>(Collections.nCopies(5, 10));
+        System.out.println("ArrayList items: " + intlist);
 
 
     }

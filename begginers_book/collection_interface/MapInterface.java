@@ -1,4 +1,4 @@
-package random_exercises.collection_interface;
+package begginers_book.collection_interface;
 
 import java.util.HashMap;
 import java.util.Map;
