@@ -1,4 +1,4 @@
-package cave_of_programming_collections;
+package cave_of_programming_collections.maps;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

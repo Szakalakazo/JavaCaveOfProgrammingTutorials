@@ -1,4 +1,4 @@
-package cave_of_programming_collections;
+package cave_of_programming_collections.custom_objects_in_maps;
 
 import java.util.*;
 

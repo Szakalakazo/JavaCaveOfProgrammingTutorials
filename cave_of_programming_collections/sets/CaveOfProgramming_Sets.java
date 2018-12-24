@@ -1,4 +1,4 @@
-package cave_of_programming_collections;
+package cave_of_programming_collections.sets;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;

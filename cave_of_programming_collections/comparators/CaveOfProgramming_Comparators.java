@@ -1,4 +1,4 @@
-package cave_of_programming_collections;
+package cave_of_programming_collections.comparators;
 
 import java.util.ArrayList;
 import java.util.Collections;
