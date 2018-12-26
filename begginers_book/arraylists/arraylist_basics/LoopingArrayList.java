@@ -1,4 +1,4 @@
-package begginers_book.arraylists;
+package begginers_book.arraylists.arraylist_basics;
 
 import java.util.ArrayList;
 import java.util.Iterator;

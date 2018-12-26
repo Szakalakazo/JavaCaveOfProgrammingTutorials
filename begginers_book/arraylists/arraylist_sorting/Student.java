@@ -1,4 +1,4 @@
-package begginers_book.arraylists;
+package begginers_book.arraylists.arraylist_sorting;
 
 public class Student implements Comparable<Student> {
     private String studentName;
