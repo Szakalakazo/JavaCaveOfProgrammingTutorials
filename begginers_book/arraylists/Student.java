@@ -1,4 +1,4 @@
-package begginers_book.comparable_and_comparator;
+package begginers_book.arraylists;
 
 public class Student implements Comparable<Student> {
     private String studentName;
@@ -49,8 +49,6 @@ public class Student implements Comparable<Student> {
         /*Acceding order*/
         return this.rollNo - compareRoll;
     }
-
-
 
     @Override
     public String toString() {
