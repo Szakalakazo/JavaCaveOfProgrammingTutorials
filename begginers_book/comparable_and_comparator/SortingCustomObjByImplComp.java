@@ -36,7 +36,7 @@ public class SortingCustomObjByImplComp {
         for(Employee worker : employees) System.out.println(worker.toString());
 
         System.out.println("\nSorting by employee age:");
-        Collections.sort(employees,Employee::compareToAge);
+        employees.sort(Employee::compareToAge);
         for(Employee worker : employees) System.out.println(worker.toString());
 
         System.out.println("\nSorting by employee ID:");
