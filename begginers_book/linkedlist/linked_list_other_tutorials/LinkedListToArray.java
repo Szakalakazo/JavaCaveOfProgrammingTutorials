@@ -13,8 +13,10 @@ public class LinkedListToArray {
         linkedList.add("Singh");
 
         System.out.println("Converting LinkedList to Array");
-        String[] array = linkedList.toArray(new String[0]);
-        //    String[] array = linkedlist.toArray(new String[linkedlist.size()]);
+//        String[] array = linkedList.toArray(new String[0]);
+//        String[] array = linkedlist.toArray(new String[linkedlist.size()]);
+        String[] array = new String[linkedList.size()];
+        linkedList.toArray(array);
 
         //Displaying Array content
         System.out.println("Array Elements:");

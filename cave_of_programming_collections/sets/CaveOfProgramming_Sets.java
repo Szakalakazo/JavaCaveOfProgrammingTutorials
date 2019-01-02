@@ -11,8 +11,8 @@ public class CaveOfProgramming_Sets {
         /*HashSet doesn't not remember an order*/
 //        Set<String> set1 = new HashSet<String>();
 
-        /*LinkedHashSet remembers order you added*/
-//        Set<String> set1 = new LinkedHashSet<>();
+        /*LinkedHashSetExample remembers order you added*/
+//        Set<String> set1 = new LinkedHashSetExample<>();
 
         /*TreeSet stores items in natural order*/
         Set<String> set1 = new TreeSet<>();
