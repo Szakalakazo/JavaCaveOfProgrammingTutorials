@@ -1,9 +1,9 @@
-package begginers_book.linkedlist;
+package begginers_book.linkedlist.linked_list_other_tutorials;
 
 import java.util.LinkedList;
 import java.util.List;
 
-public class linked_list_get_search {
+public class LinkedListGetSearch {
     public static void main(String[] args) {
         LinkedList<String> ls = new LinkedList<>();
         ls.add("Tim");
@@ -29,8 +29,8 @@ public class linked_list_get_search {
             System.out.println("Element ar index " + i + " is: " + ls.get(i));
         }
 
-        //Search elements in LinkedList
-        System.out.println("\n***Search elements in LinkedList***");
+        //Search elements in LinkedListCloning
+        System.out.println("\n***Search elements in LinkedListCloning***");
         System.out.println("Searching first occurrence of element");
 
         int firstIndex = ls.indexOf("Rock");
@@ -42,7 +42,7 @@ public class linked_list_get_search {
 
 
         //Getting sublist
-        System.out.println("\n\n***Getting sublist from LinkedList***");
+        System.out.println("\n\n***Getting sublist from LinkedListCloning***");
         LinkedList<String> ls2 = new LinkedList<String>();
         ls2.add("Item1");
         ls2.add("Item2");
@@ -54,7 +54,7 @@ public class linked_list_get_search {
 
         System.out.println("Displaying list ls: " + ls2);
 
-        System.out.println("\nObtaining Sublist from the LinkedList");
+        System.out.println("\nObtaining Sublist from the LinkedListCloning");
         List sublist = ls2.subList(2,5);
         System.out.println("Displaying sublist: " + sublist);
 

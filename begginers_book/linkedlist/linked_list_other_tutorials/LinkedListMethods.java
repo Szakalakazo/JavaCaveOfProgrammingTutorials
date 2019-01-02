@@ -1,4 +1,4 @@
-package begginers_book.linkedlist;
+package begginers_book.linkedlist.linked_list_other_tutorials;
 
 import java.util.LinkedList;
 
@@ -8,13 +8,13 @@ public class LinkedListMethods {
         for (int i = 0; i < 5; i++) {
             linkedListA.add("LA" + i);
         }
-        System.out.println("LinkedList A: " + linkedListA);
+        System.out.println("LinkedListCloning A: " + linkedListA);
 
         LinkedList<String> linkedListB = new LinkedList<>();
         for (int i = 0; i < 5; i++) {
             linkedListB.add("LB" + i);
         }
-        System.out.println("LinkedList B: " + linkedListB);
+        System.out.println("LinkedListCloning B: " + linkedListB);
 
         linkedListA.add("Hello");
         System.out.println("1. boolean add(Object item): " + linkedListA);

@@ -12,7 +12,7 @@ public class LinkedListRemovingElements {
         ls.add("Java");
 
         // Displaying Elements before replace
-        System.out.println("LinkedList items:");
+        System.out.println("LinkedListCloning items:");
         for(String item :  ls) System.out.println(item);
 
 
@@ -21,7 +21,7 @@ public class LinkedListRemovingElements {
         Object e1 = ls.remove(2);
         System.out.println("\nElement " + e1 + " removed from list.");
 
-        // LinkedList elements after remove
+        // LinkedListCloning elements after remove
         System.out.println("\nAfter removal by index: ");
         for(String item : ls) System.out.println(item);
 
@@ -39,7 +39,7 @@ public class LinkedListRemovingElements {
         ls2.add("Item4");
         ls2.add("Item5");
 
-        System.out.println("\n\n**LinkedList ls2 elements are:");
+        System.out.println("\n\n**LinkedListCloning ls2 elements are:");
         for(String item : ls2) System.out.println(item);
 
 
@@ -51,7 +51,7 @@ public class LinkedListRemovingElements {
         Object lastElement = ls2.removeLast();
         System.out.println("Element removed is " + lastElement);
 
-        /*Removing all elements from LinkedList*/
+        /*Removing all elements from LinkedListCloning*/
 
         System.out.println("\nList ls before removal: ");
         for(String item : ls) System.out.println(item);
@@ -60,9 +60,9 @@ public class LinkedListRemovingElements {
         ls.clear();
         System.out.println(ls);
 
-        //Appending elements to LinkedList
+        //Appending elements to LinkedListCloning
         ls.addAll(ls2);
-        System.out.println("\nLinkedList ls after appending elements from ls2:");
+        System.out.println("\nLinkedListCloning ls after appending elements from ls2:");
         System.out.println(ls);
 
 

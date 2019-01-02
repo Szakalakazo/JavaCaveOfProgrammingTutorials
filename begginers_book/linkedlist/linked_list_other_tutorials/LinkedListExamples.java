@@ -1,10 +1,10 @@
-package begginers_book.linkedlist;
+package begginers_book.linkedlist.linked_list_other_tutorials;
 
 import java.util.LinkedList;
 
 public class LinkedListExamples {
     public static void main(String[] args) {
-        /*LinkedList declaration*/
+        /*LinkedListCloning declaration*/
         LinkedList<String> linkedList = new LinkedList<>();
         /*add(String Element) is used for adding
          * the elements to the linked list*/
@@ -21,7 +21,7 @@ public class LinkedListExamples {
         /*Add first and last element*/
         linkedList.addFirst("First item");
         linkedList.addLast("Last item");
-        System.out.println("LinkedList Content after addition: " + linkedList);
+        System.out.println("LinkedListCloning Content after addition: " + linkedList);
 
         System.out.println(linkedList.getFirst());
         System.out.println(linkedList.getLast());

@@ -7,7 +7,7 @@ public class LinkedListAddingElements {
     public static void main(String[] args) {
         LinkedList<String> ls = new LinkedList<String>();
 
-        /*Adding an element to LinkedList*/
+        /*Adding an element to LinkedListCloning*/
         ls.add("Bob");
         ls.add("Sue");
         ls.add("Tom");
@@ -24,7 +24,7 @@ public class LinkedListAddingElements {
         ls.addLast("LAST element");
         System.out.println("\nList after adding addFirst & addLast: \n" + ls);
 
-        /*Adding element to front(Head) of LinkedList*/
+        /*Adding element to front(Head) of LinkedListCloning*/
         ls.offerFirst("FIRST HEAD");
         ls.offerLast("LAST HEAD");
         System.out.println("\nList after adding offerFirst & offerLast: \n" + ls);
